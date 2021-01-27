@@ -1,0 +1,25 @@
+{
+  "package": {
+    "dependencies": {
+      "@testing-library/jest-dom": "latest",
+      "@testing-library/react": "latest",
+      "@testing-library/user-event": "latest",
+      "@craco/craco": "^6.x",
+      "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+      "cross-env": "7.x",
+      "autoprefixer": "^9",
+      "postcss": "^7",
+      "prettier": "^2.x",
+      "prettier-plugin-tailwind": "^2.x"
+    },
+    "scripts": {
+      "start": "craco start",
+      "build": "craco build",
+      "test": "craco test",
+      "format": "prettier --write \"./src/**/*.{js,jsx}\""
+    },
+    "eslintConfig": {
+      "extends": ["react-app"]
+    }
+  }
+}

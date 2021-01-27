@@ -1,0 +1,32 @@
+{
+  "name": "tailwindcss-starter-craco-template",
+  "version": "1.4.0",
+  "description": "create-react-app template with tailwindcss",
+  "main": "template.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlaurel/tailwind-starter-craco-template.git"
+  },
+  "keywords": [
+    "react",
+    "template",
+    "create-react-app",
+    "tailwindcss"
+  ],
+  "author": "Michael Laurel",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "bugs": {
+    "url": "https://github.com/mlaurel/tailwind-starter-craco-template/issues"
+  },
+  "homepage": "https://github.com/mlaurel/tailwind-starter-craco-template#readme"
+}
